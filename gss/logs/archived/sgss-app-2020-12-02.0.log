@@ -1,0 +1,212 @@
+2020-12-02 12:58:43,072 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PulseWorkFlowApplication on DESKTOP-A59D7NI with PID 7968 (D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow\target\classes started by MECHNER in D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow)
+2020-12-02 12:58:43,079 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-02 12:58:43,569 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-02 12:58:43,569 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-02 12:58:47,089 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-02 12:58:47,092 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-12-02 12:58:47,261 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.gss.pulseworkflow.dao.UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-12-02 12:58:47,273 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 162ms. Found 0 JDBC repository interfaces.
+2020-12-02 12:58:47,313 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-02 12:58:47,315 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-02 12:58:47,406 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 79ms. Found 1 JPA repository interfaces.
+2020-12-02 12:58:49,416 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2084 (http)
+2020-12-02 12:58:49,452 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-2084"]
+2020-12-02 12:58:49,453 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-12-02 12:58:49,453 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-02 12:58:49,689 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-02 12:58:49,690 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6120 ms
+2020-12-02 12:58:50,853 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-02 12:58:51,077 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-02 12:58:51,350 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-12-02 12:58:51,491 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-02 12:58:52,041 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-02 12:58:52,511 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-12-02 12:58:57,342 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-12-02 12:58:57,522 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-02 12:59:11,832 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-02 12:59:11,871 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 12:59:11,926 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2020-12-02 12:59:12,604 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-02 12:59:12,683 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-2084"]
+2020-12-02 12:59:12,820 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2084 (http) with context path ''
+2020-12-02 12:59:12,822 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-12-02 12:59:13,396 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-12-02 12:59:13,414 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PulseWorkFlowApplication in 32.585 seconds (JVM running for 38.939)
+2020-12-02 13:02:53,906 INFO org.apache.juli.logging.DirectJDKLog [http-nio-2084-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-02 13:02:53,907 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2084-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-12-02 13:02:53,915 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2084-exec-1] Completed initialization in 8 ms
+2020-12-02 13:08:38,378 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 13:08:38,380 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-02 13:08:38,384 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2020-12-02 13:08:38,668 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
+2020-12-02 13:08:38,885 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PulseWorkFlowApplication on DESKTOP-A59D7NI with PID 7968 (D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow\target\classes started by MECHNER in D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow)
+2020-12-02 13:08:38,885 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-02 13:08:39,411 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-02 13:08:39,412 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-12-02 13:08:39,427 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.gss.pulseworkflow.dao.UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-12-02 13:08:39,427 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 15ms. Found 0 JDBC repository interfaces.
+2020-12-02 13:08:39,438 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-02 13:08:39,438 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-02 13:08:39,453 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14ms. Found 1 JPA repository interfaces.
+2020-12-02 13:08:39,692 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2084 (http)
+2020-12-02 13:08:39,693 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-2084"]
+2020-12-02 13:08:39,694 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-12-02 13:08:39,694 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-02 13:08:39,837 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-02 13:08:39,838 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 948 ms
+2020-12-02 13:08:39,959 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-02 13:08:39,971 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-02 13:08:39,980 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-2 - Starting...
+2020-12-02 13:08:40,098 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-02 13:08:43,681 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-2 - Start completed.
+2020-12-02 13:08:43,682 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-02 13:08:55,847 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-02 13:08:55,848 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 13:08:55,857 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2020-12-02 13:08:56,220 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-02 13:08:56,242 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-2084"]
+2020-12-02 13:08:56,246 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2084 (http) with context path ''
+2020-12-02 13:08:56,247 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-12-02 13:08:56,312 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-12-02 13:08:56,320 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PulseWorkFlowApplication in 17.548 seconds (JVM running for 621.844)
+2020-12-02 13:08:56,326 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-12-02 13:09:02,821 INFO org.apache.juli.logging.DirectJDKLog [http-nio-2084-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-02 13:09:02,822 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2084-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-12-02 13:09:02,828 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2084-exec-1] Completed initialization in 6 ms
+2020-12-02 13:09:23,456 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-10] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 13:09:23,458 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-10] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-02 13:09:23,459 INFO com.zaxxer.hikari.HikariDataSource [Thread-10] HikariPool-2 - Shutdown initiated...
+2020-12-02 13:09:23,466 INFO com.zaxxer.hikari.HikariDataSource [Thread-10] HikariPool-2 - Shutdown completed.
+2020-12-02 13:09:23,607 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PulseWorkFlowApplication on DESKTOP-A59D7NI with PID 7968 (D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow\target\classes started by MECHNER in D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow)
+2020-12-02 13:09:23,607 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-02 13:09:24,221 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-02 13:09:24,221 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-12-02 13:09:24,234 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.gss.pulseworkflow.dao.UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-12-02 13:09:24,234 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12ms. Found 0 JDBC repository interfaces.
+2020-12-02 13:09:24,239 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-02 13:09:24,240 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-02 13:09:24,253 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12ms. Found 1 JPA repository interfaces.
+2020-12-02 13:09:24,464 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2084 (http)
+2020-12-02 13:09:24,465 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-2084"]
+2020-12-02 13:09:24,465 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-12-02 13:09:24,466 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-02 13:09:24,625 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-02 13:09:24,626 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1012 ms
+2020-12-02 13:09:24,733 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-02 13:09:24,750 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-02 13:09:24,759 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-3 - Starting...
+2020-12-02 13:09:24,866 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-02 13:09:28,482 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-3 - Start completed.
+2020-12-02 13:09:28,483 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-02 13:09:39,685 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-02 13:09:39,686 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 13:09:39,697 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2020-12-02 13:09:40,045 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-02 13:09:40,067 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-2084"]
+2020-12-02 13:09:40,072 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2084 (http) with context path ''
+2020-12-02 13:09:40,073 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-12-02 13:09:40,121 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-12-02 13:09:40,128 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PulseWorkFlowApplication in 16.568 seconds (JVM running for 665.652)
+2020-12-02 13:09:40,139 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-12-02 13:09:47,257 INFO org.apache.juli.logging.DirectJDKLog [http-nio-2084-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-02 13:09:47,257 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2084-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-12-02 13:09:47,260 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2084-exec-1] Completed initialization in 3 ms
+2020-12-02 13:10:38,063 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 13:10:38,064 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-15] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-02 13:10:38,065 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-3 - Shutdown initiated...
+2020-12-02 13:10:38,069 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-3 - Shutdown completed.
+2020-12-02 13:10:38,192 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PulseWorkFlowApplication on DESKTOP-A59D7NI with PID 7968 (D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow\target\classes started by MECHNER in D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow)
+2020-12-02 13:10:38,193 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-02 13:10:38,652 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-02 13:10:38,652 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-12-02 13:10:38,664 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.gss.pulseworkflow.dao.UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-12-02 13:10:38,664 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11ms. Found 0 JDBC repository interfaces.
+2020-12-02 13:10:38,669 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-02 13:10:38,669 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-02 13:10:38,682 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12ms. Found 1 JPA repository interfaces.
+2020-12-02 13:10:38,923 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2084 (http)
+2020-12-02 13:10:38,925 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-2084"]
+2020-12-02 13:10:38,925 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-12-02 13:10:38,925 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-02 13:10:38,965 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-02 13:10:38,965 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 768 ms
+2020-12-02 13:10:39,084 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-02 13:10:39,095 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-02 13:10:39,105 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-4 - Starting...
+2020-12-02 13:10:39,238 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-02 13:10:43,045 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-4 - Start completed.
+2020-12-02 13:10:43,045 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-02 13:10:54,569 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-02 13:10:54,570 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 13:10:54,581 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2020-12-02 13:10:54,938 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-02 13:10:54,972 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-2084"]
+2020-12-02 13:10:54,976 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2084 (http) with context path ''
+2020-12-02 13:10:54,977 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-12-02 13:10:55,041 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-12-02 13:10:55,050 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PulseWorkFlowApplication in 16.902 seconds (JVM running for 740.573)
+2020-12-02 13:10:55,052 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-12-02 13:11:01,273 INFO org.apache.juli.logging.DirectJDKLog [http-nio-2084-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-02 13:11:01,274 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2084-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-12-02 13:11:01,281 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2084-exec-1] Completed initialization in 7 ms
+2020-12-02 13:11:26,312 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-20] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 13:11:26,313 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-20] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-02 13:11:26,314 INFO com.zaxxer.hikari.HikariDataSource [Thread-20] HikariPool-4 - Shutdown initiated...
+2020-12-02 13:11:26,320 INFO com.zaxxer.hikari.HikariDataSource [Thread-20] HikariPool-4 - Shutdown completed.
+2020-12-02 13:11:26,473 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PulseWorkFlowApplication on DESKTOP-A59D7NI with PID 7968 (D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow\target\classes started by MECHNER in D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow)
+2020-12-02 13:11:26,474 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-02 13:11:26,896 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-02 13:11:26,896 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-12-02 13:11:26,908 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.gss.pulseworkflow.dao.UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-12-02 13:11:26,908 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11ms. Found 0 JDBC repository interfaces.
+2020-12-02 13:11:26,913 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-02 13:11:26,914 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-02 13:11:26,926 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11ms. Found 1 JPA repository interfaces.
+2020-12-02 13:11:27,133 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2084 (http)
+2020-12-02 13:11:27,134 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-2084"]
+2020-12-02 13:11:27,134 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-12-02 13:11:27,135 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-02 13:11:27,153 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-02 13:11:27,154 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 674 ms
+2020-12-02 13:11:27,264 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-02 13:11:27,273 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-02 13:11:27,281 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-5 - Starting...
+2020-12-02 13:11:27,392 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-02 13:11:31,029 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-5 - Start completed.
+2020-12-02 13:11:31,029 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-02 13:11:42,248 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-02 13:11:42,249 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 13:11:42,256 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2020-12-02 13:11:42,592 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-02 13:11:42,611 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-2084"]
+2020-12-02 13:11:42,615 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2084 (http) with context path ''
+2020-12-02 13:11:42,615 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-12-02 13:11:42,672 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-12-02 13:11:42,681 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PulseWorkFlowApplication in 16.258 seconds (JVM running for 788.204)
+2020-12-02 13:11:42,684 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-12-02 13:11:54,184 INFO org.apache.juli.logging.DirectJDKLog [http-nio-2084-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-02 13:11:54,185 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2084-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-12-02 13:11:54,191 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2084-exec-1] Completed initialization in 6 ms
+2020-12-02 13:12:18,218 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-25] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-02 13:12:18,221 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-25] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-02 13:12:18,223 INFO com.zaxxer.hikari.HikariDataSource [Thread-25] HikariPool-5 - Shutdown initiated...
+2020-12-02 13:12:18,230 INFO com.zaxxer.hikari.HikariDataSource [Thread-25] HikariPool-5 - Shutdown completed.
+2020-12-02 13:12:18,597 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PulseWorkFlowApplication on DESKTOP-A59D7NI with PID 7968 (D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow\target\classes started by MECHNER in D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow)
+2020-12-02 13:12:18,598 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-02 13:12:19,748 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-02 13:12:19,749 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-12-02 13:12:19,775 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.gss.pulseworkflow.dao.UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-12-02 13:12:19,775 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 25ms. Found 0 JDBC repository interfaces.
+2020-12-02 13:12:19,783 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-02 13:12:19,784 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-02 13:12:19,813 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 28ms. Found 1 JPA repository interfaces.
+2020-12-02 13:12:20,271 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-12-02 13:12:20,273 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-02 13:12:20,273 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-12-02 13:12:20,274 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-02 13:12:20,304 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-02 13:12:20,305 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1701 ms
+2020-12-02 13:12:20,492 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-02 13:12:20,509 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-02 13:12:20,520 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-6 - Starting...
+2020-12-02 13:12:20,693 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning

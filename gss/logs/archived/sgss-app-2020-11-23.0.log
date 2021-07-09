@@ -1,0 +1,137 @@
+2020-11-23 11:55:57,524 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PulseWorkFlowApplication on DESKTOP-A59D7NI with PID 7372 (D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow\target\classes started by MECHNER in D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow)
+2020-11-23 11:55:57,533 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-11-23 11:55:58,182 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-23 11:55:58,185 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-23 11:56:00,611 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-23 11:56:00,612 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-23 11:56:00,726 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.gss.pulseworkflow.dao.UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-23 11:56:00,727 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 109ms. Found 0 JDBC repository interfaces.
+2020-11-23 11:56:00,741 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-23 11:56:00,742 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-23 11:56:00,791 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 43ms. Found 1 JPA repository interfaces.
+2020-11-23 11:56:02,096 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2074 (http)
+2020-11-23 11:56:02,131 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-2074"]
+2020-11-23 11:56:02,132 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-11-23 11:56:02,132 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-23 11:56:02,380 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-11-23 11:56:02,381 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4195 ms
+2020-11-23 11:56:03,212 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-23 11:56:03,335 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-23 11:56:03,575 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-11-23 11:56:03,683 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-23 11:56:04,007 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-11-23 11:56:04,448 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-23 11:56:08,178 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-23 11:56:08,340 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-11-23 11:56:22,403 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-23 11:56:22,427 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-23 11:56:22,462 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2020-11-23 11:56:23,010 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-23 11:56:23,152 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-2074"]
+2020-11-23 11:56:23,282 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2074 (http) with context path ''
+2020-11-23 11:56:23,284 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-11-23 11:56:23,643 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-11-23 11:56:23,656 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PulseWorkFlowApplication in 26.793 seconds (JVM running for 30.521)
+2020-11-23 11:57:25,993 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-23 11:57:26,006 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-23 11:57:26,009 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2020-11-23 11:57:26,112 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
+2020-11-23 11:57:26,368 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PulseWorkFlowApplication on DESKTOP-A59D7NI with PID 7372 (D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow\target\classes started by MECHNER in D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow)
+2020-11-23 11:57:26,368 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-11-23 11:57:27,187 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-23 11:57:27,188 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-23 11:57:27,199 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.gss.pulseworkflow.dao.UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-23 11:57:27,200 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11ms. Found 0 JDBC repository interfaces.
+2020-11-23 11:57:27,205 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-23 11:57:27,205 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-23 11:57:27,218 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12ms. Found 1 JPA repository interfaces.
+2020-11-23 11:57:27,535 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2074 (http)
+2020-11-23 11:57:27,536 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-2074"]
+2020-11-23 11:57:27,536 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-11-23 11:57:27,536 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-23 11:57:27,561 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-11-23 11:57:27,561 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1189 ms
+2020-11-23 11:57:27,664 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-23 11:57:27,674 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-23 11:57:27,683 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-2 - Starting...
+2020-11-23 11:57:27,793 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-23 11:57:30,804 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-2 - Start completed.
+2020-11-23 11:57:30,805 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-11-23 11:57:41,512 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-23 11:57:41,513 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-23 11:57:41,523 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2020-11-23 11:57:41,859 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-23 11:57:41,894 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-2074"]
+2020-11-23 11:57:41,898 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2074 (http) with context path ''
+2020-11-23 11:57:41,899 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-11-23 11:57:41,979 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-11-23 11:57:41,988 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PulseWorkFlowApplication in 15.715 seconds (JVM running for 108.853)
+2020-11-23 11:57:41,992 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-11-23 12:03:17,035 INFO org.apache.juli.logging.DirectJDKLog [http-nio-2074-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-23 12:03:17,035 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2074-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-23 12:03:17,045 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2074-exec-1] Completed initialization in 10 ms
+2020-11-23 12:55:05,421 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-10] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-23 12:55:05,426 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-10] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-23 12:55:05,431 INFO com.zaxxer.hikari.HikariDataSource [Thread-10] HikariPool-2 - Shutdown initiated...
+2020-11-23 12:55:05,456 INFO com.zaxxer.hikari.HikariDataSource [Thread-10] HikariPool-2 - Shutdown completed.
+2020-11-23 12:55:05,755 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PulseWorkFlowApplication on DESKTOP-A59D7NI with PID 7372 (D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow\target\classes started by MECHNER in D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow)
+2020-11-23 12:55:05,756 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-11-23 12:55:06,821 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-23 12:55:06,822 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-23 12:55:06,836 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.gss.pulseworkflow.dao.UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-23 12:55:06,836 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14ms. Found 0 JDBC repository interfaces.
+2020-11-23 12:55:06,841 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-23 12:55:06,841 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-23 12:55:06,854 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12ms. Found 1 JPA repository interfaces.
+2020-11-23 12:55:07,173 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2074 (http)
+2020-11-23 12:55:07,174 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-2074"]
+2020-11-23 12:55:07,174 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-11-23 12:55:07,174 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-23 12:55:07,225 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-11-23 12:55:07,225 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1453 ms
+2020-11-23 12:55:07,351 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-23 12:55:07,366 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-23 12:55:07,376 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-3 - Starting...
+2020-11-23 12:55:07,513 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-23 12:55:11,106 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-3 - Start completed.
+2020-11-23 12:55:11,108 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-11-23 12:55:22,634 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-23 12:55:22,636 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-23 12:55:22,665 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2020-11-23 12:55:23,096 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-23 12:55:23,130 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-2074"]
+2020-11-23 12:55:23,133 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2074 (http) with context path ''
+2020-11-23 12:55:23,134 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-11-23 12:55:23,206 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-11-23 12:55:23,214 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PulseWorkFlowApplication in 17.586 seconds (JVM running for 3570.079)
+2020-11-23 12:55:23,217 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-11-23 12:55:40,686 INFO org.apache.juli.logging.DirectJDKLog [http-nio-2074-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-23 12:55:40,687 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2074-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-23 12:55:40,693 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2074-exec-1] Completed initialization in 6 ms
+2020-11-23 13:01:10,034 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-3] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@11bce9d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:01:10,039 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-3] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@438c9f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:01:10,041 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-3] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@94cd5f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:01:10,043 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-3] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1909f36 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:01:10,045 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-3] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@e9dbde (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:01:10,048 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-3] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@e456ce (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:01:10,050 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-3] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1bc0c4b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:01:10,052 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-3] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1f50a09 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:01:10,055 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-3] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@16ec291 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:01:10,057 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-3] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1fab214 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:05:55,019 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-5] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@c610c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:15:28,585 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-7] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1e73cbf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:15:33,594 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-7] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@da3684 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:15:33,904 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-7] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@14a496a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:15:34,226 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-7] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@190b76b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:15:34,535 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-7] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@f5c9cb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:15:34,894 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-7] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@133634f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:15:35,233 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-7] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@b6fda (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:15:35,559 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-7] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@94b89f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:15:35,878 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-7] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@bb9797 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:15:36,197 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-2074-exec-7] HikariPool-3 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@aeb214 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-11-23 13:16:10,794 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-23 13:16:10,795 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-15] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-23 13:16:10,796 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-3 - Shutdown initiated...
+2020-11-23 13:16:10,801 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-3 - Shutdown completed.
+2020-11-23 13:16:10,961 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PulseWorkFlowApplication on DESKTOP-A59D7NI with PID 7372 (D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow\target\classes started by MECHNER in D:\Arjun\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow)
+2020-11-23 13:16:10,962 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default

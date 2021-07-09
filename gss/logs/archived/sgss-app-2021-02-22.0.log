@@ -1,0 +1,299 @@
+2021-02-22 13:21:49,597 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PulseWorkFlowApplication on DESKTOP-LN0C744 with PID 14580 (D:\Pulseoftheworkorce\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow\target\classes started by GSSADMIN in D:\Pulseoftheworkorce\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow)
+2021-02-22 13:21:49,607 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-22 13:21:49,734 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-22 13:21:49,734 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-22 13:21:54,352 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-22 13:21:54,355 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-22 13:21:54,445 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 69ms. Found 0 JDBC repository interfaces.
+2021-02-22 13:21:54,469 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-22 13:21:54,472 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-02-22 13:21:54,502 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 18ms. Found 0 JPA repository interfaces.
+2021-02-22 13:21:58,670 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-22 13:21:58,751 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-22 13:21:58,753 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-22 13:21:58,754 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-22 13:21:59,344 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-22 13:21:59,345 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 9605 ms
+2021-02-22 13:22:00,842 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-22 13:22:03,033 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 13:22:03,082 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-02-22 13:22:06,991 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-02-22 13:22:07,375 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-22 13:22:08,391 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2021-02-22 13:22:10,722 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-22 13:22:11,030 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 13:22:11,203 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 13:22:11,984 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 13:22:12,142 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 13:22:12,649 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-02-22 13:22:14,293 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-22 13:22:14,374 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-22 13:22:15,092 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 13:22:15,107 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 13:22:15,132 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 13:22:15,177 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 13:22:15,227 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 13:22:15,241 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 13:22:16,653 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-22 13:22:17,817 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@142fc4c, org.springframework.security.web.context.SecurityContextPersistenceFilter@21f80f, org.springframework.security.web.header.HeaderWriterFilter@12d48cf, org.springframework.web.filter.CorsFilter@1687fa2, org.springframework.security.web.authentication.logout.LogoutFilter@13dd789, com.gss.pulseworkflow.oauth.filter.PulseLoginFilter@f3fe2c, com.gss.pulseworkflow.oauth.filter.PulseAccessTokenFilter@144cad9, com.gss.pulseworkflow.oauth.filter.PulseTokenCheckerFilter@dbd312, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@84bf52, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ce1303, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e094d, org.springframework.security.web.session.SessionManagementFilter@1f032, org.springframework.security.web.access.ExceptionTranslationFilter@172b0a1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@129fe96]
+2021-02-22 13:22:18,238 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-22 13:22:20,099 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-22 13:22:20,391 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-22 13:22:21,709 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [restartedMain] Exception calculating properties for model(com.gss.pulseworkflow.model.AccessTokenResponse) -> ModelContext{groupName=default, type=com.gss.pulseworkflow.model.AccessTokenResponse, isReturnType=true, view=Optional.empty}. Duplicate key [Property 'access_token'; ctors: null, field(s): null, getter(s): null, setter(s): [method com.gss.pulseworkflow.model.AccessTokenResponse#setAccessToken(1 params)][visible=true,ignore=false,explicitName=true]]
+2021-02-22 13:22:21,710 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [restartedMain] Exception calculating properties for model(com.gss.pulseworkflow.model.AccessTokenResponse) -> ModelContext{groupName=default, type=com.gss.pulseworkflow.model.AccessTokenResponse, isReturnType=true, view=Optional.empty}. Duplicate key [Property 'access_token'; ctors: null, field(s): null, getter(s): null, setter(s): [method com.gss.pulseworkflow.model.AccessTokenResponse#setAccessToken(1 params)][visible=true,ignore=false,explicitName=true]]
+2021-02-22 13:22:21,712 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [restartedMain] Exception calculating properties for model(com.gss.pulseworkflow.model.AccessTokenResponse) -> ModelContext{groupName=default, type=com.gss.pulseworkflow.model.AccessTokenResponse, isReturnType=true, view=Optional.empty}. Duplicate key [Property 'access_token'; ctors: null, field(s): null, getter(s): null, setter(s): [method com.gss.pulseworkflow.model.AccessTokenResponse#setAccessToken(1 params)][visible=true,ignore=false,explicitName=true]]
+2021-02-22 13:22:21,727 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [restartedMain] Exception calculating properties for model(com.gss.pulseworkflow.model.AccessTokenResponse) -> ModelContext{groupName=default, type=com.gss.pulseworkflow.model.AccessTokenResponse, isReturnType=true, view=Optional.empty}. Duplicate key [Property 'access_token'; ctors: null, field(s): null, getter(s): null, setter(s): [method com.gss.pulseworkflow.model.AccessTokenResponse#setAccessToken(1 params)][visible=true,ignore=false,explicitName=true]]
+2021-02-22 13:22:21,977 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-02-22 13:22:21,978 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-02-22 13:22:22,002 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PulseWorkFlowApplication in 33.442 seconds (JVM running for 36.966)
+2021-02-22 13:23:00,887 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-22 13:23:00,888 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-02-22 13:23:00,931 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 43 ms
+2021-02-22 14:15:35,536 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-8] Outbound Message
+---------------------------
+ID: 1
+Address: https://pulseoftheworkforce.com/adminservices/RemoteUserStoreManagerService.RemoteUserStoreManagerServiceHttpsSoap12Endpoint/
+Http-Method: POST
+Content-Type: 
+Headers: {Authorization=[Basic YWRtaW5AcHVsc2UuY29tOkckJFBhc3N3MHJk], Accept=[*/*]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:addUser xmlns="http://common.mgt.user.carbon.wso2.org/xsd" xmlns:ns2="http://service.ws.um.carbon.wso2.org" xmlns:ns3="http://dao.service.ws.um.carbon.wso2.org/xsd" xmlns:ns4="http://api.user.carbon.wso2.org/xsd" xmlns:ns5="http://core.user.carbon.wso2.org/xsd"><ns2:userName>Timothy.Cowan@Spider-Technology.com</ns2:userName><ns2:credential>Welcome1234</ns2:credential><ns2:roleList>Application/pulse_oauth</ns2:roleList><ns2:claims><claimURI>http://wso2.org/claims/emailaddress</claimURI><value>Timothy.Cowan@Spider-Technology.com</value></ns2:claims><ns2:requirePasswordChange>false</ns2:requirePasswordChange></ns2:addUser>
+--------------------------------------
+2021-02-22 14:15:37,676 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-8] Inbound Message
+----------------------------
+ID: 1
+Response-Code: 500
+Encoding: UTF-8
+Content-Type: text/xml;charset=UTF-8
+Headers: {connection=[keep-alive], content-type=[text/xml;charset=UTF-8], Date=[Mon, 22 Feb 2021 08:45:39 GMT], Server=[nginx/1.16.1], Set-Cookie=[JSESSIONID=3972E59E4A6057BDADB31EF14ECA8DC0; Path=/; Secure; HttpOnly], transfer-encoding=[chunked], X-Content-Type-Options=[nosniff], X-Frame-Options=[DENY], X-XSS-Protection=[1; mode=block]}
+Payload: <faultstring>UserAlreadyExisting:Username already exists in the system. Please pick another username.</faultstring>
+--------------------------------------
+2021-02-22 14:19:00,117 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-7] Outbound Message
+---------------------------
+ID: 2
+Address: https://pulseoftheworkforce.com/adminservices/RemoteUserStoreManagerService.RemoteUserStoreManagerServiceHttpsSoap12Endpoint/
+Http-Method: POST
+Content-Type: 
+Headers: {Authorization=[Basic YWRtaW5AcHVsc2UuY29tOkckJFBhc3N3MHJk], Accept=[*/*]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:addUser xmlns="http://common.mgt.user.carbon.wso2.org/xsd" xmlns:ns2="http://service.ws.um.carbon.wso2.org" xmlns:ns3="http://dao.service.ws.um.carbon.wso2.org/xsd" xmlns:ns4="http://api.user.carbon.wso2.org/xsd" xmlns:ns5="http://core.user.carbon.wso2.org/xsd"><ns2:userName>Timothy.Cowan@Spider-Technology.com</ns2:userName><ns2:credential>Welcome1234</ns2:credential><ns2:roleList>Application/pulse_oauth</ns2:roleList><ns2:claims><claimURI>http://wso2.org/claims/emailaddress</claimURI><value>Timothy.Cowan@Spider-Technology.com</value></ns2:claims><ns2:requirePasswordChange>false</ns2:requirePasswordChange></ns2:addUser>
+--------------------------------------
+2021-02-22 14:19:01,881 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-7] Inbound Message
+----------------------------
+ID: 2
+Response-Code: 500
+Encoding: UTF-8
+Content-Type: text/xml;charset=UTF-8
+Headers: {connection=[keep-alive], content-type=[text/xml;charset=UTF-8], Date=[Mon, 22 Feb 2021 08:49:03 GMT], Server=[nginx/1.16.1], Set-Cookie=[JSESSIONID=52A661F5880F1E91D1C25DFC2854FF41; Path=/; Secure; HttpOnly], transfer-encoding=[chunked], X-Content-Type-Options=[nosniff], X-Frame-Options=[DENY], X-XSS-Protection=[1; mode=block]}
+Payload: <faultstring>UserAlreadyExisting:Username already exists in the system. Please pick another username.</faultstring>
+--------------------------------------
+2021-02-22 14:23:20,429 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-9] Outbound Message
+---------------------------
+ID: 3
+Address: https://pulseoftheworkforce.com/adminservices/RemoteUserStoreManagerService.RemoteUserStoreManagerServiceHttpsSoap12Endpoint/
+Http-Method: POST
+Content-Type: 
+Headers: {Authorization=[Basic YWRtaW5AcHVsc2UuY29tOkckJFBhc3N3MHJk], Accept=[*/*]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:addUser xmlns="http://common.mgt.user.carbon.wso2.org/xsd" xmlns:ns2="http://service.ws.um.carbon.wso2.org" xmlns:ns3="http://dao.service.ws.um.carbon.wso2.org/xsd" xmlns:ns4="http://api.user.carbon.wso2.org/xsd" xmlns:ns5="http://core.user.carbon.wso2.org/xsd"><ns2:userName>Timothy.Cowan@Spider-Technology.com</ns2:userName><ns2:credential>Welcome1234</ns2:credential><ns2:roleList>Application/pulse_oauth</ns2:roleList><ns2:claims><claimURI>http://wso2.org/claims/emailaddress</claimURI><value>Timothy.Cowan@Spider-Technology.com</value></ns2:claims><ns2:requirePasswordChange>false</ns2:requirePasswordChange></ns2:addUser>
+--------------------------------------
+2021-02-22 14:23:21,405 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-9] Inbound Message
+----------------------------
+ID: 3
+Response-Code: 500
+Encoding: UTF-8
+Content-Type: text/xml;charset=UTF-8
+Headers: {connection=[keep-alive], content-type=[text/xml;charset=UTF-8], Date=[Mon, 22 Feb 2021 08:53:23 GMT], Server=[nginx/1.16.1], Set-Cookie=[JSESSIONID=83A0F400DE01CC8090FD3841B0E71534; Path=/; Secure; HttpOnly], transfer-encoding=[chunked], X-Content-Type-Options=[nosniff], X-Frame-Options=[DENY], X-XSS-Protection=[1; mode=block]}
+Payload: <faultstring>UserAlreadyExisting:Username already exists in the system. Please pick another username.</faultstring>
+--------------------------------------
+2021-02-22 14:36:52,118 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-6] Outbound Message
+---------------------------
+ID: 4
+Address: https://pulseoftheworkforce.com/adminservices/RemoteUserStoreManagerService.RemoteUserStoreManagerServiceHttpsSoap12Endpoint/
+Http-Method: POST
+Content-Type: 
+Headers: {Authorization=[Basic YWRtaW5AcHVsc2UuY29tOkckJFBhc3N3MHJk], Accept=[*/*]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:addUser xmlns="http://common.mgt.user.carbon.wso2.org/xsd" xmlns:ns2="http://service.ws.um.carbon.wso2.org" xmlns:ns3="http://dao.service.ws.um.carbon.wso2.org/xsd" xmlns:ns4="http://api.user.carbon.wso2.org/xsd" xmlns:ns5="http://core.user.carbon.wso2.org/xsd"><ns2:userName>Timothy.Cowan@Spider-Technology.com</ns2:userName><ns2:credential>Welcome1234</ns2:credential><ns2:roleList>Application/pulse_oauth</ns2:roleList><ns2:claims><claimURI>http://wso2.org/claims/emailaddress</claimURI><value>Timothy.Cowan@Spider-Technology.com</value></ns2:claims><ns2:requirePasswordChange>false</ns2:requirePasswordChange></ns2:addUser>
+--------------------------------------
+2021-02-22 14:36:54,852 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-6] Inbound Message
+----------------------------
+ID: 4
+Response-Code: 500
+Encoding: UTF-8
+Content-Type: text/xml;charset=UTF-8
+Headers: {connection=[keep-alive], content-type=[text/xml;charset=UTF-8], Date=[Mon, 22 Feb 2021 09:06:56 GMT], Server=[nginx/1.16.1], Set-Cookie=[JSESSIONID=AE4873F28CB9A5D644BA66E223A706E6; Path=/; Secure; HttpOnly], transfer-encoding=[chunked], X-Content-Type-Options=[nosniff], X-Frame-Options=[DENY], X-XSS-Protection=[1; mode=block]}
+Payload: <faultstring>UserAlreadyExisting:Username already exists in the system. Please pick another username.</faultstring>
+--------------------------------------
+2021-02-22 14:40:48,890 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-22 14:40:48,956 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 14:40:49,006 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2021-02-22 14:40:49,107 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
+2021-02-22 14:40:50,044 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PulseWorkFlowApplication on DESKTOP-LN0C744 with PID 14580 (D:\Pulseoftheworkorce\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow\target\classes started by GSSADMIN in D:\Pulseoftheworkorce\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow)
+2021-02-22 14:40:50,045 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-22 14:40:56,506 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-22 14:40:56,506 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-22 14:40:56,618 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 112ms. Found 0 JDBC repository interfaces.
+2021-02-22 14:40:56,633 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-22 14:40:56,633 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-02-22 14:40:56,653 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 19ms. Found 0 JPA repository interfaces.
+2021-02-22 14:40:57,239 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-22 14:40:57,240 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-22 14:40:57,241 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-22 14:40:57,241 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-22 14:40:57,339 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-22 14:40:57,340 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 7282 ms
+2021-02-22 14:40:57,544 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-22 14:40:57,620 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 14:40:57,625 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-02-22 14:41:00,758 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-02-22 14:41:00,810 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-22 14:41:00,825 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-02-22 14:41:00,865 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-22 14:41:00,867 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-22 14:41:01,046 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:41:01,081 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:41:01,188 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:41:01,222 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:41:01,335 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:41:01,359 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:41:01,386 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:41:01,429 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:41:01,474 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:41:01,488 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:41:01,865 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-22 14:41:01,962 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f16217, org.springframework.security.web.context.SecurityContextPersistenceFilter@fea453, org.springframework.security.web.header.HeaderWriterFilter@1e421de, org.springframework.web.filter.CorsFilter@15b2918, org.springframework.security.web.authentication.logout.LogoutFilter@e0e04b, com.gss.pulseworkflow.oauth.filter.PulseLoginFilter@ca0261, com.gss.pulseworkflow.oauth.filter.PulseAccessTokenFilter@6910c4, com.gss.pulseworkflow.oauth.filter.PulseTokenCheckerFilter@1a19fdf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1496c40, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ab5326, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@739581, org.springframework.security.web.session.SessionManagementFilter@14119a, org.springframework.security.web.access.ExceptionTranslationFilter@17389ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d4be94]
+2021-02-22 14:41:02,089 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-22 14:41:02,665 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-22 14:41:02,673 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-22 14:41:03,381 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [restartedMain] Exception calculating properties for model(com.gss.pulseworkflow.model.AccessTokenResponse) -> ModelContext{groupName=default, type=com.gss.pulseworkflow.model.AccessTokenResponse, isReturnType=true, view=Optional.empty}. Duplicate key [Property 'access_token'; ctors: null, field(s): null, getter(s): null, setter(s): [method com.gss.pulseworkflow.model.AccessTokenResponse#setAccessToken(1 params)][visible=true,ignore=false,explicitName=true]]
+2021-02-22 14:41:03,383 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [restartedMain] Exception calculating properties for model(com.gss.pulseworkflow.model.AccessTokenResponse) -> ModelContext{groupName=default, type=com.gss.pulseworkflow.model.AccessTokenResponse, isReturnType=true, view=Optional.empty}. Duplicate key [Property 'access_token'; ctors: null, field(s): null, getter(s): null, setter(s): [method com.gss.pulseworkflow.model.AccessTokenResponse#setAccessToken(1 params)][visible=true,ignore=false,explicitName=true]]
+2021-02-22 14:41:03,384 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [restartedMain] Exception calculating properties for model(com.gss.pulseworkflow.model.AccessTokenResponse) -> ModelContext{groupName=default, type=com.gss.pulseworkflow.model.AccessTokenResponse, isReturnType=true, view=Optional.empty}. Duplicate key [Property 'access_token'; ctors: null, field(s): null, getter(s): null, setter(s): [method com.gss.pulseworkflow.model.AccessTokenResponse#setAccessToken(1 params)][visible=true,ignore=false,explicitName=true]]
+2021-02-22 14:41:03,390 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [restartedMain] Exception calculating properties for model(com.gss.pulseworkflow.model.AccessTokenResponse) -> ModelContext{groupName=default, type=com.gss.pulseworkflow.model.AccessTokenResponse, isReturnType=true, view=Optional.empty}. Duplicate key [Property 'access_token'; ctors: null, field(s): null, getter(s): null, setter(s): [method com.gss.pulseworkflow.model.AccessTokenResponse#setAccessToken(1 params)][visible=true,ignore=false,explicitName=true]]
+2021-02-22 14:41:03,588 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-02-22 14:41:03,589 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-02-22 14:41:03,602 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PulseWorkFlowApplication in 13.864 seconds (JVM running for 4758.566)
+2021-02-22 14:41:03,607 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-02-22 14:41:15,546 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-22 14:41:15,546 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-02-22 14:41:15,552 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2021-02-22 14:41:35,540 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-2] Outbound Message
+---------------------------
+ID: 5
+Address: https://pulseoftheworkforce.com/adminservices/RemoteUserStoreManagerService.RemoteUserStoreManagerServiceHttpsSoap12Endpoint/
+Http-Method: POST
+Content-Type: 
+Headers: {Authorization=[Basic YWRtaW5AcHVsc2UuY29tOkckJFBhc3N3MHJk], Accept=[*/*]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:addUser xmlns="http://common.mgt.user.carbon.wso2.org/xsd" xmlns:ns2="http://service.ws.um.carbon.wso2.org" xmlns:ns3="http://dao.service.ws.um.carbon.wso2.org/xsd" xmlns:ns4="http://api.user.carbon.wso2.org/xsd" xmlns:ns5="http://core.user.carbon.wso2.org/xsd"><ns2:userName>Timothy.Cowan@Spider-Technology.com</ns2:userName><ns2:credential>Welcome1234</ns2:credential><ns2:roleList>Application/pulse_oauth</ns2:roleList><ns2:claims><claimURI>http://wso2.org/claims/emailaddress</claimURI><value>Timothy.Cowan@Spider-Technology.com</value></ns2:claims><ns2:requirePasswordChange>false</ns2:requirePasswordChange></ns2:addUser>
+--------------------------------------
+2021-02-22 14:41:36,982 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-2] Inbound Message
+----------------------------
+ID: 5
+Response-Code: 500
+Encoding: UTF-8
+Content-Type: text/xml;charset=UTF-8
+Headers: {connection=[keep-alive], content-type=[text/xml;charset=UTF-8], Date=[Mon, 22 Feb 2021 09:11:38 GMT], Server=[nginx/1.16.1], Set-Cookie=[JSESSIONID=9B6A24844BC8163F369D930AAC417C60; Path=/; Secure; HttpOnly], transfer-encoding=[chunked], X-Content-Type-Options=[nosniff], X-Frame-Options=[DENY], X-XSS-Protection=[1; mode=block]}
+Payload: <faultstring>UserAlreadyExisting:Username already exists in the system. Please pick another username.</faultstring>
+--------------------------------------
+2021-02-22 14:45:24,430 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-10] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-22 14:45:24,432 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-10] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-22 14:45:24,434 INFO com.zaxxer.hikari.HikariDataSource [Thread-10] HikariPool-2 - Shutdown initiated...
+2021-02-22 14:45:24,443 INFO com.zaxxer.hikari.HikariDataSource [Thread-10] HikariPool-2 - Shutdown completed.
+2021-02-22 14:45:24,702 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PulseWorkFlowApplication on DESKTOP-LN0C744 with PID 14580 (D:\Pulseoftheworkorce\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow\target\classes started by GSSADMIN in D:\Pulseoftheworkorce\GSS\Dev-WorkSpace\PulseWorkForce\PulseWorkFlow)
+2021-02-22 14:45:24,703 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-22 14:45:26,059 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-22 14:45:26,059 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-22 14:45:26,089 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 30ms. Found 0 JDBC repository interfaces.
+2021-02-22 14:45:26,096 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-22 14:45:26,097 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-02-22 14:45:26,111 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13ms. Found 0 JPA repository interfaces.
+2021-02-22 14:45:26,577 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-02-22 14:45:26,578 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-22 14:45:26,578 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-02-22 14:45:26,578 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-22 14:45:26,679 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-02-22 14:45:26,679 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1968 ms
+2021-02-22 14:45:26,852 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-22 14:45:26,915 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 14:45:26,919 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2021-02-22 14:45:30,015 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2021-02-22 14:45:30,050 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-22 14:45:30,064 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-02-22 14:45:30,093 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-22 14:45:30,095 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-22 14:45:30,229 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:45:30,254 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:45:30,315 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:45:30,342 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:45:30,445 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:45:30,460 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:45:30,478 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:45:30,508 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:45:30,583 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:45:30,593 INFO org.springframework.aop.framework.CglibAopProxy [restartedMain] Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2021-02-22 14:45:30,874 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-22 14:45:31,008 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d814f9, org.springframework.security.web.context.SecurityContextPersistenceFilter@1067f20, org.springframework.security.web.header.HeaderWriterFilter@1407b76, org.springframework.web.filter.CorsFilter@d5ba47, org.springframework.security.web.authentication.logout.LogoutFilter@13d6e44, com.gss.pulseworkflow.oauth.filter.PulseLoginFilter@1dcb12a, com.gss.pulseworkflow.oauth.filter.PulseAccessTokenFilter@7c7e15, com.gss.pulseworkflow.oauth.filter.PulseTokenCheckerFilter@195acc1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e9efec, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@148b1ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@659a0a, org.springframework.security.web.session.SessionManagementFilter@1f5ac2e, org.springframework.security.web.access.ExceptionTranslationFilter@2085e1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b1c43e]
+2021-02-22 14:45:31,090 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-02-22 14:45:31,639 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-22 14:45:31,647 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-22 14:45:32,109 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [restartedMain] Exception calculating properties for model(com.gss.pulseworkflow.model.AccessTokenResponse) -> ModelContext{groupName=default, type=com.gss.pulseworkflow.model.AccessTokenResponse, isReturnType=true, view=Optional.empty}. Duplicate key [Property 'access_token'; ctors: null, field(s): null, getter(s): null, setter(s): [method com.gss.pulseworkflow.model.AccessTokenResponse#setAccessToken(1 params)][visible=true,ignore=false,explicitName=true]]
+2021-02-22 14:45:32,110 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [restartedMain] Exception calculating properties for model(com.gss.pulseworkflow.model.AccessTokenResponse) -> ModelContext{groupName=default, type=com.gss.pulseworkflow.model.AccessTokenResponse, isReturnType=true, view=Optional.empty}. Duplicate key [Property 'access_token'; ctors: null, field(s): null, getter(s): null, setter(s): [method com.gss.pulseworkflow.model.AccessTokenResponse#setAccessToken(1 params)][visible=true,ignore=false,explicitName=true]]
+2021-02-22 14:45:32,112 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [restartedMain] Exception calculating properties for model(com.gss.pulseworkflow.model.AccessTokenResponse) -> ModelContext{groupName=default, type=com.gss.pulseworkflow.model.AccessTokenResponse, isReturnType=true, view=Optional.empty}. Duplicate key [Property 'access_token'; ctors: null, field(s): null, getter(s): null, setter(s): [method com.gss.pulseworkflow.model.AccessTokenResponse#setAccessToken(1 params)][visible=true,ignore=false,explicitName=true]]
+2021-02-22 14:45:32,116 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [restartedMain] Exception calculating properties for model(com.gss.pulseworkflow.model.AccessTokenResponse) -> ModelContext{groupName=default, type=com.gss.pulseworkflow.model.AccessTokenResponse, isReturnType=true, view=Optional.empty}. Duplicate key [Property 'access_token'; ctors: null, field(s): null, getter(s): null, setter(s): [method com.gss.pulseworkflow.model.AccessTokenResponse#setAccessToken(1 params)][visible=true,ignore=false,explicitName=true]]
+2021-02-22 14:45:32,317 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-02-22 14:45:32,318 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-02-22 14:45:32,327 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PulseWorkFlowApplication in 7.708 seconds (JVM running for 5027.292)
+2021-02-22 14:45:32,331 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-02-22 14:46:15,416 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-22 14:46:15,417 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-02-22 14:46:15,426 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 8 ms
+2021-02-22 14:46:31,522 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-1] Outbound Message
+---------------------------
+ID: 6
+Address: https://pulseoftheworkforce.com/adminservices/RemoteUserStoreManagerService.RemoteUserStoreManagerServiceHttpsSoap12Endpoint/
+Http-Method: POST
+Content-Type: 
+Headers: {Authorization=[Basic YWRtaW5AcHVsc2UuY29tOkckJFBhc3N3MHJk], Accept=[*/*]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:addUser xmlns="http://common.mgt.user.carbon.wso2.org/xsd" xmlns:ns2="http://service.ws.um.carbon.wso2.org" xmlns:ns3="http://dao.service.ws.um.carbon.wso2.org/xsd" xmlns:ns4="http://api.user.carbon.wso2.org/xsd" xmlns:ns5="http://core.user.carbon.wso2.org/xsd"><ns2:userName>Timothy.Cowan@Spider-Technology.com</ns2:userName><ns2:credential>Welcome1234</ns2:credential><ns2:roleList>Application/pulse_oauth</ns2:roleList><ns2:claims><claimURI>http://wso2.org/claims/emailaddress</claimURI><value>Timothy.Cowan@Spider-Technology.com</value></ns2:claims><ns2:requirePasswordChange>false</ns2:requirePasswordChange></ns2:addUser>
+--------------------------------------
+2021-02-22 14:46:33,619 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-1] Inbound Message
+----------------------------
+ID: 6
+Response-Code: 500
+Encoding: UTF-8
+Content-Type: text/xml;charset=UTF-8
+Headers: {connection=[keep-alive], content-type=[text/xml;charset=UTF-8], Date=[Mon, 22 Feb 2021 09:16:35 GMT], Server=[nginx/1.16.1], Set-Cookie=[JSESSIONID=DECA7D17C35F9B23540E3D5D419284F8; Path=/; Secure; HttpOnly], transfer-encoding=[chunked], X-Content-Type-Options=[nosniff], X-Frame-Options=[DENY], X-XSS-Protection=[1; mode=block]}
+Payload: <faultstring>UserAlreadyExisting:Username already exists in the system. Please pick another username.</faultstring>
+--------------------------------------
+2021-02-22 14:50:41,926 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-4] Outbound Message
+---------------------------
+ID: 7
+Address: https://pulseoftheworkforce.com/adminservices/RemoteUserStoreManagerService.RemoteUserStoreManagerServiceHttpsSoap12Endpoint/
+Http-Method: POST
+Content-Type: 
+Headers: {Authorization=[Basic YWRtaW5AcHVsc2UuY29tOkckJFBhc3N3MHJk], Accept=[*/*]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:addUser xmlns="http://common.mgt.user.carbon.wso2.org/xsd" xmlns:ns2="http://service.ws.um.carbon.wso2.org" xmlns:ns3="http://dao.service.ws.um.carbon.wso2.org/xsd" xmlns:ns4="http://api.user.carbon.wso2.org/xsd" xmlns:ns5="http://core.user.carbon.wso2.org/xsd"><ns2:userName>Timothy.Cowan@Spider-Technology.com</ns2:userName><ns2:credential>Welcome1234</ns2:credential><ns2:roleList>Application/pulse_oauth</ns2:roleList><ns2:claims><claimURI>http://wso2.org/claims/emailaddress</claimURI><value>Timothy.Cowan@Spider-Technology.com</value></ns2:claims><ns2:requirePasswordChange>false</ns2:requirePasswordChange></ns2:addUser>
+--------------------------------------
+2021-02-22 14:55:25,745 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-6] Outbound Message
+---------------------------
+ID: 8
+Address: https://pulseoftheworkforce.com/adminservices/RemoteUserStoreManagerService.RemoteUserStoreManagerServiceHttpsSoap12Endpoint/
+Http-Method: POST
+Content-Type: 
+Headers: {Authorization=[Basic YWRtaW5AcHVsc2UuY29tOkckJFBhc3N3MHJk], Accept=[*/*]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:addUser xmlns="http://common.mgt.user.carbon.wso2.org/xsd" xmlns:ns2="http://service.ws.um.carbon.wso2.org" xmlns:ns3="http://dao.service.ws.um.carbon.wso2.org/xsd" xmlns:ns4="http://api.user.carbon.wso2.org/xsd" xmlns:ns5="http://core.user.carbon.wso2.org/xsd"><ns2:userName>Timothy.Cowan@Spider-Technology.com</ns2:userName><ns2:credential>Welcome1234</ns2:credential><ns2:roleList>Application/pulse_oauth</ns2:roleList><ns2:claims><claimURI>http://wso2.org/claims/emailaddress</claimURI><value>Timothy.Cowan@Spider-Technology.com</value></ns2:claims><ns2:requirePasswordChange>false</ns2:requirePasswordChange></ns2:addUser>
+--------------------------------------
+2021-02-22 14:55:27,057 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-6] Inbound Message
+----------------------------
+ID: 8
+Response-Code: 500
+Encoding: UTF-8
+Content-Type: text/xml;charset=UTF-8
+Headers: {connection=[keep-alive], content-type=[text/xml;charset=UTF-8], Date=[Mon, 22 Feb 2021 09:25:28 GMT], Server=[nginx/1.16.1], Set-Cookie=[JSESSIONID=91F21D5B1EDDDD5F87B5CDEB67B101A1; Path=/; Secure; HttpOnly], transfer-encoding=[chunked], X-Content-Type-Options=[nosniff], X-Frame-Options=[DENY], X-XSS-Protection=[1; mode=block]}
+Payload: <faultstring>UserAlreadyExisting:Username already exists in the system. Please pick another username.</faultstring>
+--------------------------------------
+2021-02-22 14:59:21,577 INFO org.apache.cxf.interceptor.AbstractLoggingInterceptor [http-nio-8080-exec-1] Outbound Message
+---------------------------
+ID: 9
+Address: https://pulseoftheworkforce.com/adminservices/RemoteUserStoreManagerService.RemoteUserStoreManagerServiceHttpsSoap12Endpoint/
+Http-Method: POST
+Content-Type: 
+Headers: {Authorization=[Basic YWRtaW5AcHVsc2UuY29tOkckJFBhc3N3MHJk], Accept=[*/*]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:addUser xmlns="http://common.mgt.user.carbon.wso2.org/xsd" xmlns:ns2="http://service.ws.um.carbon.wso2.org" xmlns:ns3="http://dao.service.ws.um.carbon.wso2.org/xsd" xmlns:ns4="http://api.user.carbon.wso2.org/xsd" xmlns:ns5="http://core.user.carbon.wso2.org/xsd"><ns2:userName>POTWorkforce@gmail.com</ns2:userName><ns2:credential>Welcome1234</ns2:credential><ns2:roleList>Application/pulse_oauth</ns2:roleList><ns2:claims><claimURI>http://wso2.org/claims/emailaddress</claimURI><value>POTWorkforce@gmail.com</value></ns2:claims><ns2:requirePasswordChange>false</ns2:requirePasswordChange></ns2:addUser>
+--------------------------------------
